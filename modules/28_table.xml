@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="28" name="Таблица значений" version="1.0">
+	<properties>
+		<property>
+			<id>odd_color</id>
+			<name>Цвет четных строк</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+		<property>
+			<id>even_color</id>
+			<name>Цвет нечетных строк</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+		<property>
+			<id>text_color</id>
+			<name>Цвет текста</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+	</properties>
+	<fields>
+		<field>
+			<id>header</id>
+			<name>Заголовок таблицы</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>header1</id>
+			<name>Заголовок 1</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>header2</id>
+			<name>Заголовок 2</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>header3</id>
+			<name>Заголовок 3</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>header4</id>
+			<name>Заголовок 4</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>header5</id>
+			<name>Заголовок 5</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>header6</id>
+			<name>Заголовок 6</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+	</fields>
+	<datasets>
+		<dataset>
+			<id>1</id>
+			<name>Строки</name>
+			<fields>
+				<field>
+					<id>field1</id>
+					<name>Поле 1</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>field2</id>
+					<name>Поле 2</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>field3</id>
+					<name>Поле 3</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>field4</id>
+					<name>Поле 4</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>field5</id>
+					<name>Поле 5</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>field6</id>
+					<name>Поле 6</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>

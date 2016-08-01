@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="1" state="header" name="Шапка сайта" version="1.0">
+	<fields>
+		<field>
+			<id>logo</id>
+			<name>Логотип</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>address</id>
+			<name>Адрес</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>phone1</id>
+			<name>Телефон 1</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>phone2</id>
+			<name>Телефон 2</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+	</fields>
+	<datasets>
+		<dataset>
+			<id>1</id>
+			<name>Соц. сети</name>
+			<fields>
+				<field>
+					<id>url</id>
+					<name>Ссылка</name>
+					<type>2</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>picture</id>
+					<name>Изображение</name>
+					<type>3</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+		<dataset>
+			<id>2</id>
+			<name>Ссылки меню</name>
+			<fields>
+				<field>
+					<id>url</id>
+					<name>Ссылка</name>
+					<type>2</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>url_text</id>
+					<name>Текст ссылки</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>

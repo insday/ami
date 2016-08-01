@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="18" name="Три блока" version="1.0">
+	<datasets>
+		<dataset>
+			<id>1</id>
+			<name>Блоки</name>
+			<fields>
+				<field>
+					<id>back</id>
+					<name>Подложка</name>
+					<type>3</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>icon</id>
+					<name>Иконка</name>
+					<type>3</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>header</id>
+					<name>Заголовок</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>url</id>
+					<name>URL перехода</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>

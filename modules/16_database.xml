@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="16" name="База данных" version="1.0">
+	<datasets>
+		<dataset>
+			<id>1</id>
+			<name>База данных</name>
+			<fields>
+				<field>
+					<id>header</id>
+					<name>Заголовок</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>theme</id>
+					<name>Тема</name>
+					<type>4</type>
+					<format>2</format>
+				</field>
+				<field>
+					<id>text</id>
+					<name>Текст</name>
+					<type>2</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>

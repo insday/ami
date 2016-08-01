@@ -1,0 +1,146 @@
+.split {
+	display: table;
+}
+.news {
+	display: table-cell;
+	width: 50%;
+	padding: 0 20px 40px 20px;
+}
+.news_ {
+	display: table;
+	width: 100%;
+}
+.news_left {
+	display: table-cell;
+	width: 50%;
+	padding: 72px 40px 0 20px;
+	border-right: solid 1px #d8d8d8;
+}
+.news_right {
+	display: table-cell;
+	width: 50%;
+	padding: 113px 40px 0 40px;
+}
+.new {
+	padding-top: 30px;
+	border-bottom: solid 1px #d8d8d8;
+	cursor: pointer;
+}
+.new:last-child {
+	border-bottom: none;
+}
+.news h2 {
+	font-family: 'MullerExtraBold';
+	font-size: 32px;
+	line-height: 1.3;
+	letter-spacing: 0.5px;
+	color: #4d4d4d;
+	margin-bottom: 0;
+}
+.news h4 {
+	font-family: 'MullerBold';
+	font-size: 18px;
+	line-height: 1.2;
+	letter-spacing: 0.6px;
+	color: #4d4d4d;
+	margin-top: 6px;
+	margin-bottom: 20px;
+}
+.more {
+	padding: 15px 0 20px;
+	color: #3c8d45;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}
+.new:hover .more {
+	color: #23bac2;
+}
+.split button {
+	display: block;
+	width: 240px;
+	margin: 0 auto;
+	height: 50px;
+	font-family: 'MullerRegular';
+	background: transparent;
+	border: solid 2px #cfcfcf;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #1e1e1e;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.split button:hover {
+	background: #cfcfcf;
+}
+.events button {
+	margin: 30px auto 50px auto;
+}
+.events {
+	display: table-cell;
+	width: 50%;
+	background-color: #efefef;
+	padding: 72px 0 0 20px;
+}
+.events h2 {
+	font-family: 'MullerExtraBold';
+	font-size: 32px;
+	line-height: 1.3;
+	letter-spacing: 0.5px;
+	color: #4d4d4d;
+	margin-bottom: 40px;
+}
+.events h3 {
+	font-family: 'MullerBold';
+	font-size: 18px;
+	line-height: 1.2;
+	letter-spacing: 0.6px;
+	color: #ffffff;
+}
+.event {
+	float: left;
+	width: calc(50% - 20px);
+	height: 420px;
+	margin-right: 20px;
+	background-color: #fefefe;
+	box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.1);
+	margin-bottom: 20px;
+	cursor: pointer;
+}
+.event:hover {
+	box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.4);
+}
+.eventimg {
+	width: 100%;
+	position: relative;
+}
+.eventhdr {
+	position: absolute;
+	bottom: 15px;
+	left: 23px;
+	width: 80%;
+}
+.eventimg img {
+	width: 100%;
+}
+.eventtxt {
+	padding: 14px 47px 25px 23px;
+}
+.eshadow {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+	height: 140px;
+	background-image: linear-gradient(to bottom, rgba(190, 190, 190, 0), rgba(47, 47, 47, 0.7));
+}
+.new time {
+	font-size: 12px;
+	line-height: 1.7;
+	color: #787878;
+}
+.event time {
+	padding: 15px 20px;
+	font-size: 14px;
+	line-height: 1.7;
+	color: #787878;
+}

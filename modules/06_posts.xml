@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="6" name="Публикации" version="1.0">
+	<fields>
+		<field>
+			<id>header</id>
+			<name>Заголовок</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>text</id>
+			<name>Текст</name>
+			<type>2</type>
+			<format>1</format>
+		</field>
+	</fields>
+	<datasets>
+		<dataset>
+			<id>1</id>
+			<name>Публикации</name>
+			<fields>
+				<field>
+					<id>date_pub</id>
+					<name>Дата публикации</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>type</id>
+					<name>Тип</name>
+					<type>4</type>
+					<format>2</format>
+				</field>
+				<field>
+					<id>header</id>
+					<name>Заголовок</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>preview</id>
+					<name>Превью</name>
+					<type>3</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>announce</id>
+					<name>Анонс</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>text</id>
+					<name>Текст публикации</name>
+					<type>2</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>picture</id>
+					<name>Изображение</name>
+					<type>3</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>p_descr</id>
+					<name>Подпись к изображению</name>
+					<type>2</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>text_d</id>
+					<name>Дополнительный текст публикации</name>
+					<type>2</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>

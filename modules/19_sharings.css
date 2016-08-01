@@ -1,0 +1,16 @@
+.socbuttons {
+	text-align: center;
+}
+.socbuttons hr {
+	width: calc(100% - 120px);
+}
+.socs {
+	display: table;
+	margin: 20px auto;
+}
+.soc {
+	display: table-cell;
+	padding: 0 20px;
+}
+@media screen and (max-width: 900px) {
+}

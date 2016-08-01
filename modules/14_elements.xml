@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="14" name="Элементы на выбор" version="1.0">
+	<properties>
+		<property>
+			<id>back_color</id>
+			<name>Цвет общей подложки</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+		<property>
+			<id>text_color</id>
+			<name>Цвет текста</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+	</properties>
+	<fields>
+		<field>
+			<id>header1</id>
+			<name>Заголовок H1</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>header2</id>
+			<name>Заголовок H2</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>header3</id>
+			<name>Заголовок H3</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>header4</id>
+			<name>Заголовок H4</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>back</id>
+			<name>Подложка без искажения</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>button_text</id>
+			<name>Надпись кнопки</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>button_url</id>
+			<name>URL кнопки</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+	</fields>
+</module>

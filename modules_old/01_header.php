@@ -1,0 +1,1 @@
+<div style="height: 151px; background-image: url('/images/data/<?=$fields["back"];?>'); background-size: cover; background-position: top center;" onClick="document.location='/'"></div>

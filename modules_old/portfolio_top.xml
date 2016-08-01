@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="8" name="Портфолио первый экран" version="1.0">
+	<properties>
+		<property>
+			<id>block_height</id>
+			<name>Высота блока</name>
+			<type>1</type>
+			<format>2</format>
+		</property>
+		<property>
+			<id>top_margin</id>
+			<name>Отступ сверху</name>
+			<type>1</type>
+			<format>2</format>
+		</property>
+	</properties>
+	<fields>
+		<field>
+			<id>back</id>
+			<name>Подложка</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>work_theme</id>
+			<name>Тематика клиента</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>work_date</id>
+			<name>Дата создания</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>work_name</id>
+			<name>Название работы</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>work_title</id>
+			<name>Заголовок работы</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>work_descr</id>
+			<name>Текст о работе</name>
+			<type>2</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>work_pic</id>
+			<name>Изображение работы</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+	</fields>
+</module>

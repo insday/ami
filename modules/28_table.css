@@ -1,0 +1,37 @@
+.etable {
+	width: calc(100% - 100px);
+	max-width: 1000px;
+	margin: 40px auto;
+}
+.etable h2 {
+	margin-bottom: 40px;
+}
+.etable_ {
+	display: table;
+	width: 100%;
+}
+.eheaders {
+	display: table-row;
+}
+.eheader {
+	font-weight: 700;
+	display: table-cell;
+	padding: 6px 10px;
+}
+.erow {
+	display: table-row;
+}
+.ecol {
+	display: table-cell;
+	padding: 6px 10px;
+}
+.erow.fullw {
+	width: 100%;
+	background-color: #BBBBBF;
+}
+.ecol.fullw {
+	font-size: 18px;
+	width: 100%;
+	font-family: 'MullerBold';
+	background-color: #BBBBBF;
+}

@@ -1,0 +1,29 @@
+.code {
+	text-align: center;
+	box-sizing: content-box;
+}
+.code_ {
+	display: table;
+	width: 468px;
+	margin: 0 auto 40px auto;
+	box-sizing: content-box;
+}
+.cdsROWContainer  {
+	width: 468px!important;
+}
+.cdsLocName {
+	max-width: none!important;
+	font-size: 13px!important;
+	font-weight: normal;
+	line-height: 100%;
+	letter-spacing: 0;
+}
+.cdsLocName a {
+	font-size: 13px;
+	font-weight: normal;
+	line-height: 100%;
+	letter-spacing: 0;
+}
+.code .logo {
+	width: auto;
+}

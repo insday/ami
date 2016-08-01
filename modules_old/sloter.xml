@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="16" name="Слот-машина" version="1.0">
+	<fields>
+		<field>
+			<id>back</id>
+			<name>Бэк</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>text</id>
+			<name>Текст</name>
+			<type>2</type>
+			<format>1</format>
+		</field>
+	</fields>
+	<datasets>
+		<dataset>
+			<id>1</id>
+			<name>Слайдер</name>
+			<fields>
+				<field>
+					<id>bheader</id>
+					<name>Заголовок в кнопке</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>spicture</id>
+					<name>Изображение</name>
+					<type>3</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>sheader</id>
+					<name>Заголовок</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>sdescr</id>
+					<name>Описание</name>
+					<type>2</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>surl</id>
+					<name>URL перехода</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+		<dataset>
+			<id>2</id>
+			<name>Фразы</name>
+			<fields>
+				<field>
+					<id>icon</id>
+					<name>Иконка</name>
+					<type>3</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>word1</id>
+					<name>Слово 1</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>word2</id>
+					<name>Слово 2</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>word3</id>
+					<name>Слово 3</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+		<dataset>
+			<id>3</id>
+			<name>Надписи кнопки</name>
+			<fields>
+				<field>
+					<id>but_head</id>
+					<name>Надпись</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>

@@ -1,0 +1,315 @@
+.galleries {
+	background-color: #384957;
+	padding: 53px 0 70px 0;
+	text-align: center;
+}
+.galleries h2 {
+	font-family: MullerExtraBold;
+	font-size: 32px;
+	line-height: 1.3;
+	letter-spacing: 0.5px;
+	color: #ffffff;
+	margin-bottom: 25px;
+}
+.g_text {
+	color: #ffffff;
+	width: 640px;
+	margin: 0 auto 25px auto ;
+}
+.galnavs {
+	display: table;
+	margin: 0 auto;
+}
+.galnav {
+	float: left;
+	padding: 6px 15px;
+	border: solid 3px transparent;
+	text-align: center;
+	height: 40px;
+	margin-left: -4px;
+	font-size: 16px;
+	line-height: 1.6;
+	color: #ffffff;
+	cursor: pointer;
+    -moz-user-select: -moz-none;
+    -webkit-user-select: none;
+    user-select: none;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+	white-space: nowrap;
+}
+.galnav:hover {
+	color: #23bac2;
+}
+.galnav.active {
+	border-style: solid;
+	border-width: 3px;
+	border-image-source: linear-gradient(270deg, #23bac2, #39b545);
+	border-image-slice: 1;
+}
+.galnav.active:hover {
+	color: #ffffff;
+	cursor: default;
+}
+.visibleNearby {
+  width: 100%;
+  color: #FFF;
+  padding-top: 25px;
+}
+.visibleNearby .rsGCaption {
+  font-size: 16px;
+  line-height: 18px;
+  padding: 12px 0 16px;
+  width: 100%;
+  position: static;
+  float: left;
+  left: auto;
+  bottom: auto;
+  text-align: center;
+}
+.visibleNearby .rsGCaption span {
+  display: block;
+  clear: both;
+  color: #bbb;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+
+/* Scaling transforms */
+.visibleNearby .rsSlide img {
+  opacity: 0.45;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+
+  -webkit-transform: scale(0.7);
+  -moz-transform: scale(0.7);
+  -ms-transform: scale(0.7);
+  -o-transform: scale(0.7);
+  transform: scale(0.7);
+}
+.visibleNearby .rsActiveSlide img {
+  opacity: 1;
+  -webkit-transform: scale(1);  
+  -moz-transform: scale(1); 
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+.rsContent {
+	color: #333333;
+	position: relative;
+}
+.rsABlock {
+	background: #FFFFFF;
+	padding: 9px 6px;
+	width: 400px;
+	top: 85%;
+	left: 50%;
+	margin-left: -200px;
+	height: 40px;
+	text-align: center;
+	z-index: 100;
+}
+.rsBullets {
+	position: absolute;
+	bottom: -30px;
+	height: 8px;
+	left: 50%;
+    -ms-transform: translate(-50%, 0);
+   	-webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.rsBullet {
+	float: left;
+	width: 4px;
+	height: 4px;
+	border-radius: 2px;
+	margin: 0 6px;
+	background-color: #ffffff;
+	cursor: pointer;
+}
+.rsNavSelected {
+	width: 4px;
+	height: 4px;
+	margin-top: -1px;
+	background-color: #31b772;
+	border: solid 3px #31b772;
+}
+/* Non-linear resizing on smaller screens */
+@media screen and (min-width: 0px) and (max-width: 900px) { 
+	#gallery_ {
+	padding: 12px 0 12px;
+	}
+	#gallery_ .rsOverflow,
+	.royalSlider#gallery_ {
+	height: 400px!important;
+	}
+}
+@media screen and (min-width: 0px) and (max-width: 500px) { 
+	#gallery_ .rsOverflow,
+	.royalSlider#gallery_ {
+	height: 300px !important;
+	}
+}
+.gal_div {
+	position: relative;
+	margin: 60px 0;
+}
+.gal_line {
+	width: calc(100% - 120px);
+	margin: 0 auto;
+}
+.gline-left {
+	float: left;
+	width: calc(50% - 140px);
+	/* border-bottom: 1px solid #8B8B8B; */
+	height: 20px;
+}
+.gline-middle {
+	float: left;
+	width: 280px;
+	height: 37px;
+}
+.gline-right {
+	float: left;
+	width: calc(50% - 280px);
+	/* border-bottom */: 1px solid #8B8B8B;
+	height: 20px;
+}
+.gbutton-right {
+	float: left;
+	width: 140px;
+	height: 37px;
+	text-align: right;
+}
+.gbutton-right button {
+	width: 125px;
+	height: 37px;
+	border: none;
+	background: transparent;
+	background-image: url("/images/orarr.png");
+	background-position: 110px 8px;
+	background-repeat: no-repeat;
+	padding-right: 20px;
+	color: #313131;
+	font-size: 11px;
+	letter-spacing: 0.5px;
+}
+.gbutton-right_ {
+	display: none;
+	float: left;
+	width: 140px;
+	height: 37px;
+	text-align: right;
+}
+.prevgalpic {
+	width: 40px;
+	height: 37px;
+	border: none;
+	background: transparent;
+	background-repeat: no-repeat;
+	background-image: url("/images/orarr_.png");
+	background-position: 0 8px;
+	padding-right: 20px;
+}
+.nextgalpic {
+	width: 40px;
+	height: 37px;
+	border: none;
+	background: transparent;
+	background-repeat: no-repeat;
+	background-image: url("/images/orarr.png");
+	background-position: 0 8px;
+	padding-right: 20px;
+}
+.gallery {
+	width: 100%;
+	margin-top: 30px;
+}
+.bgallery {
+	display: none;
+	position: absolute;
+	top: 50px;
+	left: 50%;
+	width: 900px;
+	height: 600px;
+	margin: 0 auto;
+    -ms-transform: translate(-50%, 0);
+   	-webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+	overflow: hidden;
+	z-index: 999;
+}
+.bgallery_ {
+	height: 600px;
+}
+.bgalimg {
+	float: left;
+	width: 900px;
+	height: 600px;
+}
+.visibleNearby {
+  width: 100%;
+  color: #FFF;
+  padding-top: 25px;
+}
+.visibleNearby .rsGCaption {
+  font-size: 16px;
+  line-height: 18px;
+  padding: 12px 0 16px;
+  width: 100%;
+  position: static;
+  float: left;
+  left: auto;
+  bottom: auto;
+  text-align: center;
+}
+.visibleNearby .rsGCaption span {
+  display: block;
+  clear: both;
+  color: #bbb;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+
+/* Scaling transforms */
+.visibleNearby .rsSlide img {
+  opacity: 0.4;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+
+  -webkit-transform: scale(0.8);
+  -moz-transform: scale(0.8); 
+  -ms-transform: scale(0.8);
+  -o-transform: scale(0.8);
+  transform: scale(0.8);
+}
+.visibleNearby .rsActiveSlide img {
+  opacity: 1;
+  -webkit-transform: scale(1);  
+  -moz-transform: scale(1); 
+  -ms-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+/* Non-linear resizing on smaller screens */
+@media screen and (min-width: 0px) and (max-width: 900px) { 
+  #gallery_ {
+    padding: 12px 0 12px;
+  }
+  #gallery_ .rsOverflow,
+  .royalSlider#gallery_ {
+    height: 400px !important;
+  }
+}
+@media screen and (min-width: 0px) and (max-width: 500px) { 
+  #gallery_ .rsOverflow,
+  .royalSlider#gallery_ {
+    height: 300px !important;
+  }
+}

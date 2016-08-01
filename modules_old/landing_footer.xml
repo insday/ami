@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+field -> type
+1 - Строка
+2 - Текст
+3 - Изображение
+4 - Список
+5 - Чекбокс
+6 - Дата
+field -> format
+
+-> 1
+1 - Текстовая
+2 - Число
+-> 2
+1 - Только текст
+2 - Простой редактор
+3 - Сложный редактор
+-> 3
+1 - Одно изображение
+2 - Массив изображений
+-> 4
+1 - Список значений
+2 - Единичный выбор из списка
+3 - Множественный выбор из списка
+
+-> 5
+1 - Да / нет
+
+-> 6
+1 - ДД.ММ.ГГГГ
+2 - ДД МЕСЯЦ ГГГГ
+3 - Особый
+-->
+<module id="5" name="Футер лэндинга" version="1.0">
+	<fields>
+		<field>
+			<id>logo1</id>
+			<name>Лого футера</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>url1</id>
+			<name>Ссылка 1</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>urltext1</id>
+			<name>Текст ссылки 1</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>url2</id>
+			<name>Ссылка 2</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>urltext2</id>
+			<name>Текст ссылки 2</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>phone</id>
+			<name>Телефон</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+	</fields>
+	<datasets>
+		<dataset>
+			<id>social</id>
+			<name>Соц. сети</name>
+			<fields>
+				<field>
+					<id>surl</id>
+					<name>Ссылка</name>
+					<type>1</type>
+				</field>
+				<field>
+					<id>simg</id>
+					<name>Иконка</name>
+					<type>3</type>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="3" name="Текст в 2 колонки" version="1.0">
+	<properties>
+		<property>
+			<id>back_color</id>
+			<name>Цвет подложки</name>
+			<type>color</type>
+			<default></default>
+		</property>
+		<property>
+			<id>text_color</id>
+			<name>Цвет текстов</name>
+			<type>color</type>
+			<default></default>
+		</property>
+		<property>
+			<id>margin_top</id>
+			<name>Отступ сверху</name>
+			<type>header</type>
+			<default>50</default>
+		</property>
+		<property>
+			<id>border_color</id>
+			<name>Цвет бордера</name>
+			<type>color</type>
+			<default></default>
+		</property>
+	</properties>
+	<fields>
+		<field>
+			<id>header</id>
+			<name>Заголовок</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>header_left</id>
+			<name>Подзаголовок слева</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>header_right</id>
+			<name>Подзаголовок справа</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>text_left</id>
+			<name>Текст слева</name>
+			<type>2</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>text_right</id>
+			<name>Текст справа</name>
+			<type>2</type>
+			<format>1</format>
+		</field>
+	</fields>
+</module>

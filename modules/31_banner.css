@@ -1,0 +1,25 @@
+.banner_through {
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	top: 0;
+	overflow: hidden;
+	z-index: 222;
+}
+.bclose {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 28px;
+	height: 28px;
+	font-size: 28px;
+	z-index: 30;
+	cursor: pointer;
+}
+.bclose:after {
+	color: #CCCCCC;
+	content: "\2573";
+}
+.bclose:hover:after {
+	color: #666666;
+}

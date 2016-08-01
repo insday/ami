@@ -1,0 +1,159 @@
+#content {
+	position: relative;
+	display: table;
+	width: 100%;
+	height: 650px;
+	overflow-x: hidden;
+}
+.sloter_back {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 650px;
+	overflow: hidden;
+	z-index: 3;
+}
+.sloter_back img {
+	min-width: 100%;
+	max-width: none;
+	min-height: 100%;
+}
+.abs {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 650px;
+	z-index: 4;
+}
+.buttons {
+    margin: 30px auto;
+    text-align:center;
+    width: 360px;
+}
+.slotmach {
+	width: 62px;
+	height: 62px;
+	margin: 0 auto 70px auto;
+}
+.sloter {
+	margin: 130px auto 20px auto;
+	width: 1000px;
+	color: #FFFFFF;
+	overflow-x: hidden;
+}
+.spinner {
+	float: left;
+	width: 320px;
+    margin: 0 10px;
+}
+.blowing {
+	display: table;
+    margin: 0 auto;
+}
+.blow {
+	position: relative;
+	width: 340px;
+	height: 48px;
+	float: left;
+	/* border: solid 1px #99FF99; */
+}
+.blow div {
+	position: absolute;
+    font-size: 50px;
+    font-weight: 700;
+	line-height: 34px;
+	letter-spacing: 0.2em;
+	/* border: solid 1px #FF6666; */
+}
+#blow1 {
+	text-align: right;
+	right: 0;
+	margin-right: 30px;
+}
+#blow2 {
+	margin: 0;
+	text-align: center;
+}
+#blow3 {
+	margin-left: 30px;
+	text-align: left;
+}
+#spinner1 {
+	text-align: right;
+	margin-left: 0;
+}
+#spinner2 {
+	text-align: center;
+}
+#spinner3 {
+	text-align: left;
+	margin-right: 0;
+}
+.spinner-inner ul {
+    padding:6px;
+    margin:0;
+    list-style-type:none;
+}
+.spinner-inner ul li {
+    list-style-type:none;
+    padding:4px;
+    font-weight: 700;
+    font-size: 36px;
+	letter-spacing: 2px;
+}
+@-webkit-keyframes spin{  
+  0% {  
+        /* background-position: 0, 0 0; */
+        -webkit-transform: rotateX(0deg) translateZ(40px);
+     }
+  100% { 
+        /* background-position: 0, 0 -640px; */
+        -webkit-transform: rotateX(360deg) translateZ(40px);
+     }
+}
+.rotating{
+	-webkit-filter: blur(2px);
+    -webkit-animation: spin .1s infinite linear;
+    /* -webkit-transition: background-position .3s; */
+}
+.again {
+	position: absolute;
+	bottom: 50px;
+	left: 50%;
+    -ms-transform: translate(-50%, 0);
+   	-webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+	cursor: pointer;
+	text-align: center;
+}
+.again img {
+	display: block;
+	width: 20px;
+	margin: 0 auto 10px auto;
+}
+@media only screen and (max-width: 1600px) {
+	.blow div {
+		position: absolute;
+		font-size: 42px;
+		line-height: 26px;
+		letter-spacing: 0.17em;
+	}
+}
+@media only screen and (max-width: 1400px) {
+	.blow div {
+		position: absolute;
+		font-size: 34px;
+		line-height: 28px;
+		letter-spacing: 0.15em;
+	}
+}
+@media only screen and (max-width: 1280px) {
+	.blow div {
+		position: absolute;
+		font-size: 30px;
+		line-height: 24px;
+		letter-spacing: 0.1em;
+	}
+}

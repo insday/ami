@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="11" name="Сторонний код" version="1.0">
+	<fields>
+		<field>
+			<id>code</id>
+			<name>Сторонний код</name>
+			<type>2</type>
+			<format>1</format>
+		</field>
+	</fields>
+</module>

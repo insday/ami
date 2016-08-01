@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="17" name="Фотогалерея" version="1.0">
+	<properties>
+		<property>
+			<id>back_color</id>
+			<name>Цвет подложки</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+		<property>
+			<id>back_image</id>
+			<name>Файл подложки</name>
+			<type>3</type>
+			<format>1</format>
+		</property>
+		<property>
+			<id>text_color</id>
+			<name>Цвет текста</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+	</properties>
+	<fields>
+		<field>
+			<id>header</id>
+			<name>Заголовок</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>text</id>
+			<name>Текст</name>
+			<type>2</type>
+			<format>1</format>
+		</field>
+	</fields>
+	<datasets>
+		<dataset>
+			<id>1</id>
+			<name>Изображения</name>
+			<fields>
+				<field>
+					<id>image</id>
+					<name>Изображение</name>
+					<type>3</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>type</id>
+					<name>Раздел</name>
+					<type>4</type>
+					<format>2</format>
+				</field>
+				<field>
+					<id>descr</id>
+					<name>Описание</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>

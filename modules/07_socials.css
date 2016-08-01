@@ -1,0 +1,19 @@
+.socials_div {
+	display: table;
+	margin: 0 auto 40px auto;
+}
+.social_txt {
+	display: table-cell;
+	width: 188px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 26px;
+	letter-spacing: 0.5px;
+	padding: 24px 0;
+}
+.social {
+	display: table-cell;
+	padding: 30px;
+}
+@media screen and (max-width: 900px) {
+}

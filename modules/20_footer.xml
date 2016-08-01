@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="20" state="footer" name="Подвал сайта" version="1.0">
+	<fields>
+		<field>
+			<id>copy</id>
+			<name>Копирайт</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>address</id>
+			<name>Адрес</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>phones</id>
+			<name>Телефоны</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+	</fields>
+	<datasets>
+		<dataset>
+			<id>1</id>
+			<name>Пункты меню</name>
+			<fields>
+				<field>
+					<id>header</id>
+					<name>Пункт</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>url</id>
+					<name>URL перехода</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>is_main</id>
+					<name>Основной</name>
+					<type>5</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+		<dataset>
+			<id>2</id>
+			<name>Соц. сети</name>
+			<fields>
+				<field>
+					<id>surl</id>
+					<name>Ссылка</name>
+					<type>2</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>spicture</id>
+					<name>Изображение</name>
+					<type>3</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>

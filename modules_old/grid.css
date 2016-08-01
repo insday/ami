@@ -1,0 +1,74 @@
+/* БЛОК GRID */
+.grid {
+	position: relative;
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	padding: 8% 0 0 0;
+}
+.grid_table {
+	width: 100%;
+	height: 100%;
+}
+.grid_cell {
+	position: relative;
+	float: left;
+	width: 33.33333%;
+	background-color: #000000;
+	margin: 0;
+	cursor: pointer;
+}
+.grid_cell .grid_img {
+	-webkit-transition: opacity 0.5s;
+	transition: opacity 0.5s;
+}
+.grid_table:hover .grid_cell .grid_img {
+	opacity: 0.7;
+}
+.grid_table:hover .grid_cell:hover .grid_img {
+	opacity: 1;
+}
+.grid_text {
+	position: absolute;
+	text-align: left;
+	color: #FFFFFF;
+	bottom: 7%;
+	left: 6%;
+}
+.grid_cell h2 {
+	font-size: 22px;
+	line-height: 26px;
+	letter-spacing: 0.15em;
+	max-width: 80%;
+	margin-bottom: 15px;
+	color: #FFFFFF;
+}
+.grid_cell .txt {
+	color: #FFFFFF;
+	font-size: 14px;
+	line-height: 20px;
+	max-width: 80%;
+}
+.grid_types {
+	display: table;
+	margin: 0 auto 50px auto;
+}
+.grid_type {
+	display: table-cell;
+	padding: 15px 30px;
+	font-size: 14px;
+	letter-spacing: 0.01em;
+	border: solid 2px transparent;
+	cursor: pointer;
+}
+.grid_type:hover {
+	color: #22d6ed;
+}
+.grid_type.sel {
+	border: solid 2px #22d6ed;
+}
+@media only screen and (max-width: 1280px) {
+	.grid_cell {
+		width: 50%;
+	}
+}

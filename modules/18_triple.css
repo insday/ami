@@ -1,0 +1,45 @@
+/* БЛОК TRIPLE */
+.triple_div {
+	width: 100%;
+	padding: 1px 0 1px 1px;
+	position: relative;
+}
+.triple {
+	float: left;
+	width: calc(33.3333% - 1px);
+	margin-right: 1px;
+	position: relative;
+	cursor: pointer;
+}
+.triple_content {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 80%;
+	height: 100%;
+	max-width: 300px;
+}
+.triple_table {
+	display: table;
+	height: 100%;
+}
+.triple_cell {
+	display: table-cell;
+	vertical-align: middle;
+	padding: 0 60px;
+}
+.triple_cell img {
+	width: 102px;
+	height: 102px;
+	margin-bottom: 20px;
+}
+.triple_cell h2 {
+	color: #FFFFFF;
+}
+.triple_back {
+	width: 100%;
+	height: 100%;
+}
+.triple_back img {
+	width: 100%;
+}

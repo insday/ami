@@ -1,0 +1,84 @@
+.form {
+	display: none;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	width: 500px;
+	padding: 50px;
+	text-align: center;
+	box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.2);
+    -ms-transform: translate(-50%, -50%);
+   	-webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+	background-color: #FFFFFF;
+	z-index: 200;
+}
+.form h2 {
+	margin-bottom: 40px;
+}
+.form_ {
+	max-width: 600px;
+	margin: 30px auto;
+}
+.form_fieldname {
+	float: left;
+	width: 50%;
+	font-size: 16px;
+	text-align: left;
+}
+.form_field {
+	float: left;
+	width: 50%;
+	text-align: left;
+}
+.form_field input {
+	border: solid 1px #999999;
+	border-radius: 2px;
+	padding: 4px 6px;
+	font-size: 16px;
+	background: #FFFFFF;
+}
+.form_field select {
+	border: solid 1px #999999;
+	border-radius: 2px;
+	padding: 4px 6px;
+	font-size: 16px;
+	background: #FFFFFF;
+}
+.form_field textarea {
+	border: solid 1px #999999;
+	border-radius: 2px;
+	padding: 4px 6px;
+	font-size: 16px;
+	background: #FFFFFF;
+}
+.fclose {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	width: 28px;
+	height: 28px;
+	font-size: 28px;
+	z-index: 30;
+	cursor: pointer;
+}
+.fclose:after {
+	color: #000000;
+	content: "\2573";
+}
+.fclose:hover:after {
+	color: #DDDDDD;
+}
+.date1 {
+	width: 120px;
+}
+.ui-datepicker-trigger {
+	margin: 5px 0 0 10px;
+}
+.form button {
+	width: 180px;
+	height: 40px;
+	background: transparent;
+	border: solid 2px #999999;
+	border-radius: 3px;
+}

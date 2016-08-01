@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="5" name="Аггрегатор страниц" version="1.0">
+	<fields>
+		<field>
+			<id>page_id</id>
+			<name>Родительская страница</name>
+			<type>1</type>
+			<format>2</format>
+		</field>
+		<field>
+			<id>header</id>
+			<name>Заголовок</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>text</id>
+			<name>Текст</name>
+			<type>2</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>linktext</id>
+			<name>Текст ссылки</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>limit</id>
+			<name>Ограничение</name>
+			<type>1</type>
+			<format>2</format>
+		</field>
+	</fields>
+	<datasets>
+		<dataset>
+			<id>1</id>
+			<name>Превью</name>
+			<fields>
+				<field>
+					<id>image_p</id>
+					<name>Изображение превью</name>
+					<type>3</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>header_p</id>
+					<name>Заголовок превью</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>text_p</id>
+					<name>Текст превью</name>
+					<type>2</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>price</id>
+					<name>Цена</name>
+					<type>1</type>
+					<format>2</format>
+				</field>
+				<field>
+					<id>url_p</id>
+					<name>URL перехода</name>
+					<type>1</type>
+					<format>1</format>
+					<readonly>1</readonly>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>

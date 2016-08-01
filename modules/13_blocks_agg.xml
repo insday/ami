@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="13" name="Аггрегатор модулей страницы" version="1.0">
+	<fields>
+		<field>
+			<id>header</id>
+			<name>Заголовок</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+	</fields>
+</module>

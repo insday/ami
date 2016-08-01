@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="12" state="through" name="Сторонний код сквозной" version="1.0">
+	<fields>
+		<field>
+			<id>code</id>
+			<name>Сторонний код</name>
+			<type>2</type>
+			<format>1</format>
+		</field>
+	</fields>
+</module>

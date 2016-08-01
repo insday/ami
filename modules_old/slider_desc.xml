@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="23" name="Слайдер с описаниями" version="1.0">
+	<properties>
+		<property>
+			<id>back_color_left</id>
+			<name>Цвет подложки слева</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+		<property>
+			<id>back_color_right</id>
+			<name>Цвет подложки справа</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+		<property>
+			<id>text_color</id>
+			<name>Цвет текста</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+	</properties>
+	<datasets>
+		<dataset>
+			<id>1</id>
+			<name>Слайды</name>
+			<fields>
+				<field>
+					<id>picture</id>
+					<name>Изображение</name>
+					<type>3</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>header</id>
+					<name>Заголовок</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>text</id>
+					<name>Текст</name>
+					<type>2</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="25" name="Начало общей подложки" version="1.0">
+	<fields>
+		<field>
+			<id>back</id>
+			<name>Подложка</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+	</fields>
+</module>

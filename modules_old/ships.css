@@ -1,0 +1,97 @@
+.projects {
+	text-align: left;
+	padding: 140px 10px 70px 10px;
+	background: #ecf3f5;
+	color: #345277;
+}
+.projects h2 {
+	text-align: center;
+	margin-bottom: 50px;
+}
+.projtext {
+	width: 640px;
+	margin: 0 auto;
+	font-size: 16px;
+	line-height: 24px;
+	text-align: center;
+}
+.shiper {
+	margin-top: 40px;
+	width: 100%;
+	height: 209px;
+	overflow: hidden;
+}
+.shipsin {
+	width: 9999px;
+	height: 209px;
+	margin-left: calc(50% - 122px);
+}
+.ship {
+	float: left;
+	cursor: pointer;
+}
+.aboutship {
+	position: relative;
+	width: 860px;
+	margin: 30px auto 0 auto;
+	padding: 45px 100px;
+	background: #FFFFFF;
+	-webkit-box-shadow: 0px 19px 24px 0px rgba(21, 46, 62, 0.09);
+	-moz-box-shadow: 0px 19px 24px 0px rgba(21, 46, 62, 0.09);
+	box-shadow: 0px 19px 24px 0px rgba(21, 46, 62, 0.09);
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	border-radius: 6px;
+	text-align: center;
+}
+.aboutship:after {
+	bottom: 100%;
+	left: 50%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #FFFFFF;
+	border-width: 12px;
+	margin-left: -12px;
+}
+.aboutship button {
+	width: 240px;
+	height: 50px;
+	background: none;
+	border: solid 2px #c49870;
+	color: #c49870;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 0.15em;
+	margin-top: 40px;
+	cursor: pointer;
+	outline: none;
+}
+.aboutship button:hover {
+	background-color: #c49870;
+	color: #FFFFFF;
+}
+.aboutship h4 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+.shipdesc {
+	font-size: 16px;
+	line-height: 24px;
+	text-align: left;
+}
+.shiplink {
+	width: 136px;
+	margin: 20px auto;
+	color: #C49870;
+	cursor: pointer;
+	font-size: 16px;
+}
+.shiplink:hover {
+	color: #06535F;
+}

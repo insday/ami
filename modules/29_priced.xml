@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="29" name="Продукт с ценой" version="1.0">
+	<properties>
+		<property>
+			<id>back_color</id>
+			<name>Цвет подложки</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+		<property>
+			<id>text_color</id>
+			<name>Цвет текста</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+	</properties>
+	<fields>
+		<field>
+			<id>delimiter</id>
+			<name>Разделитель хлебных крошек</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>header</id>
+			<name>Заголовок</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>announce</id>
+			<name>Краткое описание</name>
+			<type>2</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>subheader</id>
+			<name>Подзаголовок</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>pricename1</id>
+			<name>Название цены 1</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>price1</id>
+			<name>Цена 1</name>
+			<type>1</type>
+			<format>2</format>
+		</field>
+		<field>
+			<id>pricename2</id>
+			<name>Название цены 2</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>price2</id>
+			<name>Цена 2</name>
+			<type>1</type>
+			<format>2</format>
+		</field>
+		<field>
+			<id>pricename3</id>
+			<name>Название цены 3</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>price3</id>
+			<name>Цена 3</name>
+			<type>1</type>
+			<format>2</format>
+		</field>
+		<field>
+			<id>but_text</id>
+			<name>Надпись кнопки</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>but_url</id>
+			<name>URL кнопки</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>image</id>
+			<name>Изображение</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+	</fields>
+</module>

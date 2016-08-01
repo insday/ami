@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="1" state="header" name="Шапка сайта" version="1.0">
+	<fields>
+		<field>
+			<id>but1_text</id>
+			<name>Кнопка 1</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>but1_url</id>
+			<name>Ссылка кнопки 1</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>but2_text</id>
+			<name>Кнопка 2</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>but2_url</id>
+			<name>Ссылка кнопки 2</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>logo</id>
+			<name>Логотип</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>address</id>
+			<name>Адрес</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>phone</id>
+			<name>Телефон</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+	</fields>
+	<datasets>
+		<dataset>
+			<id>1</id>
+			<name>Соц. сети</name>
+			<fields>
+				<field>
+					<id>surl</id>
+					<name>Ссылка</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>spicture</id>
+					<name>Изображение</name>
+					<type>3</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+		<dataset>
+			<id>2</id>
+			<name>Ссылки меню</name>
+			<fields>
+				<field>
+					<id>url</id>
+					<name>Ссылка</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>url_text</id>
+					<name>Текст ссылки</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>

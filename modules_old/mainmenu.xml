@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="1" name="Основное меню" version="1.0">
+	<properties>
+		<property>
+			<id>position</id>
+			<name>Позиция</name>
+			<type>list</type>
+			<values>
+				<value>
+					<id>1</id>
+					<val>слева</val>
+				</value>
+				<value>
+					<id>2</id>
+					<val>справа</val>
+				</value>
+				<value>
+					<id>3</id>
+					<val>по центру</val>
+				</value>
+			</values>
+			<default>3</default>
+		</property>
+		<property>
+			<id>urltype</id>
+			<name>Тип ссылки</name>
+			<type>list</type>
+			<values>
+				<value>
+					<id>1</id>
+					<val>в пределах страницы</val>
+				</value>
+			</values>
+			<default>1</default>
+		</property>
+	</properties>
+	<datasets>
+		<dataset>
+			<id>1</id>
+			<name>Пункты меню</name>
+			<fields>
+				<field>
+					<id>name</id>
+					<name>Пункт меню</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>url</id>
+					<name>Ссылка</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>

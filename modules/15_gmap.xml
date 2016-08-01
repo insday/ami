@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="15" name="Google-карта с точками" version="1.0">
+	<fields>
+		<field>
+			<id>header</id>
+			<name>Заголовок</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>text</id>
+			<name>Текст</name>
+			<type>2</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>address</id>
+			<name>Адрес</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>cx</id>
+			<name>Координата X</name>
+			<type>1</type>
+			<format>2</format>
+		</field>
+		<field>
+			<id>cy</id>
+			<name>Координата Y</name>
+			<type>1</type>
+			<format>2</format>
+		</field>
+	</fields>
+	<datasets>
+		<dataset>
+			<id>1</id>
+			<name>Контакты</name>
+			<fields>
+				<field>
+					<id>subheader</id>
+					<name>Подзаголовок</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>phone1</id>
+					<name>Телефон 1</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>phone2</id>
+					<name>Телефон 2</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>email</id>
+					<name>EMail</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>

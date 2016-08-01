@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="09" name="Иконки с подписями" version="1.0">
+	<properties>
+		<property>
+			<id>back_color</id>
+			<name>Цвет подложки</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+		<property>
+			<id>text_color</id>
+			<name>Цвет текста</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+	</properties>
+	<fields>
+		<field>
+			<id>header</id>
+			<name>Заголовок блока</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>back_image</id>
+			<name>Подложка</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+	</fields>
+	<datasets>
+		<dataset>
+			<id>1</id>
+			<name>Иконки</name>
+			<fields>
+				<field>
+					<id>icon</id>
+					<name>Иконка</name>
+					<type>3</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>iheader</id>
+					<name>Заголовок</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>itext</id>
+					<name>Текст</name>
+					<type>2</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>

@@ -1,0 +1,55 @@
+/* БЛОК ICONS_NOTICED */
+.uniicons {
+	width: 100%;
+	padding: 30px;
+	text-align: center;
+}
+.uniicons h2 {
+	margin-bottom: 40px;
+}
+.uniicons_ {
+	display: table;
+	max-width: 1600px;
+	min-width: 1000px;
+	margin: 0 auto;
+}
+.uniicon {
+	display: table-cell;
+	text-align: center;
+}
+.uniicon_table {
+	display: table;
+	width: 100%;
+}
+.uniicon_row {
+	display: table-row;
+}
+.uniicon_cell {
+	display: table-cell;
+	text-align: center;
+}
+.uniicon_middle {
+	vertical-align: middle;
+	height: 100px;
+}
+.uniicon_top {
+	vertical-align: top;
+	padding: 0 20px;
+}
+.uniicon_abs {
+	left: 50%;
+    -ms-transform: translate(-50%, 0);
+   	-webkit-transform: translate(-50%, 0);
+    transform: translate(-50%, 0);
+}
+.uniicon_desc {
+	text-align: center;
+}
+.uniicon_txt {
+	text-align: left;
+}
+.uniicon h4 {
+	margin-bottom: 30px;
+}
+@media only screen and (max-width: 960px) {
+}

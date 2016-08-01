@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="19" name="Портфолио с типами" version="1.0">
+	<properties>
+		<property>
+			<id>back_color</id>
+			<name>Цвет подложки</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+		<property>
+			<id>text_color</id>
+			<name>Цвет текста</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+	</properties>
+	<fields>
+		<field>
+			<id>header</id>
+			<name>Заголовок</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>url</id>
+			<name>Ссылка с заголовка</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+	</fields>
+	<datasets>
+		<dataset>
+			<id>1</id>
+			<name>Компоненты</name>
+			<fields>
+				<field>
+					<id>type</id>
+					<name>Тип</name>
+					<type>4</type>
+					<format>2</format>
+				</field>
+				<field>
+					<id>new</id>
+					<name>Новый</name>
+					<type>5</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>image</id>
+					<name>Изображение</name>
+					<type>3</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>header</id>
+					<name>Заголовок</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>text</id>
+					<name>Текст</name>
+					<type>2</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>url</id>
+					<name>Ссылка</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>

@@ -1,0 +1,170 @@
+@font-face {
+  font-family: 'MullerBlack';
+  src: url('/fonts/MullerBlack.eot');
+  src: url('/fonts/MullerBlack.woff2') format('woff2'),
+       url('/fonts/MullerBlack.woff') format('woff'),
+       url('/fonts/MullerBlack.ttf') format('truetype'),
+       url('/fonts/MullerBlack.svg#MullerBlack') format('svg'),
+       url('/fonts/MullerBlack.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MullerBold';
+  src: url('/fonts/MullerBold.eot');
+  src: url('/fonts/MullerBold.woff2') format('woff2'),
+       url('/fonts/MullerBold.woff') format('woff'),
+       url('/fonts/MullerBold.ttf') format('truetype'),
+       url('/fonts/MullerBold.svg#MullerBold') format('svg'),
+       url('/fonts/MullerBold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MullerExtraBold';
+  src: url('/fonts/MullerExtraBold.eot');
+  src: url('/fonts/MullerExtraBold.woff2') format('woff2'),
+       url('/fonts/MullerExtraBold.woff') format('woff'),
+       url('/fonts/MullerExtraBold.ttf') format('truetype'),
+       url('/fonts/MullerExtraBold.svg#MullerExtraBold') format('svg'),
+       url('/fonts/MullerExtraBold.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MullerMedium';
+  src: url('/fonts/MullerMedium.eot');
+  src: url('/fonts/MullerMedium.woff2') format('woff2'),
+       url('/fonts/MullerMedium.woff') format('woff'),
+       url('/fonts/MullerMedium.ttf') format('truetype'),
+       url('/fonts/MullerMedium.svg#MullerMedium') format('svg'),
+       url('/fonts/MullerMedium.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MullerRegular';
+  src: url('/fonts/MullerRegular.eot');
+  src: url('/fonts/MullerRegular.woff2') format('woff2'),
+       url('/fonts/MullerRegular.woff') format('woff'),
+       url('/fonts/MullerRegular.ttf') format('truetype'),
+       url('/fonts/MullerRegular.svg#MullerRegular') format('svg'),
+       url('/fonts/MullerRegular.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'MullerUltraLight';
+  src: url('/fonts/MullerUltraLight.eot');
+  src: url('/fonts/MullerUltraLight.woff2') format('woff2'),
+       url('/fonts/MullerUltraLight.woff') format('woff'),
+       url('/fonts/MullerUltraLight.ttf') format('truetype'),
+       url('/fonts/MullerUltraLight.svg#MullerUltraLight') format('svg'),
+       url('/fonts/MullerUltraLight.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+/* ШРИФТЫ */
+body, p, a, span, div {
+	font-family: 'MullerRegular';
+	font-size: 14px;
+	line-height: 1.6;
+	color: #3d3d3d;
+}
+h1 {
+	display: table;
+	margin: 0 auto;
+	text-transform: uppercase;
+	background-image: linear-gradient(to right, #43904b, #2cad7b 47%, #15a8c1 88%, #0c87a5), linear-gradient(#7ebb2a, #7ebb2a);
+	font-family: 'MullerBlack';
+	font-size: 55px;
+	line-height: 1.1;
+	letter-spacing: 0.033em;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+h2 {
+	font-family: 'MullerBold';
+	font-size: 32px;
+	font-weight: 800;
+	line-height: 1.25;
+	letter-spacing: 0.005em;
+	color: #ffffff;
+}
+h3 {
+	font-family: 'MullerBlack';
+	font-size: 24px;
+	line-height: 1.3;
+	color: #4d4d4d;
+}
+h4 {
+	font-family: 'MullerBold';
+	font-size: 22px;
+	line-height: 1.33;
+	letter-spacing: 0em;
+	color: #4d4d4d;
+}
+h5 {
+	font-family: 'MullerBlack';
+	font-size: 16px;
+	line-height: 1.6;
+	color: #1E1E1E;
+}
+h6 {
+	font-family: 'MullerBlack';
+	font-size: 15px;
+	line-height: 1.2;
+	color: #4d4d4d;
+}
+a {
+	color: #3d3d3d;
+	text-decoration: none;
+}
+a:hover {
+	color: #000000;
+	text-decoration: none;
+}
+hr {
+	background-color: #D0D0D0;
+	color: #D0D0D0;
+	height: 1px;
+	border: none;
+	margin: 40px auto 25px auto;
+}
+@media only screen and (max-width: 1400px) {
+	h1 {
+		font-size: 52px;
+	}
+	h2 {
+		font-size: 32px;
+	}
+	h3 {
+		font-size: 24px;
+	}
+	h4 {
+		font-size: 20px;
+	}
+}
+@media only screen and (max-width: 1240px) {
+	h1 {
+		font-size: 48px;
+		line-height: 62px;
+		letter-spacing: 0.1em
+	}
+	h2 {
+		font-size: 30px;
+		line-height: 28px;
+		letter-spacing: 0em;
+	}
+	h3 {
+		font-size: 22px;
+		line-height: 18px;
+		/*letter-spacing: 0.1em;*/
+	}
+	h4 {
+		font-size: 18px;
+		line-height: 22px;
+		letter-spacing: 0em
+	}
+}

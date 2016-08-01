@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+field -> type
+1 - Строка
+2 - Текст
+3 - Изображение
+4 - Список
+5 - Чекбокс
+6 - Дата
+field -> format
+
+-> 1
+1 - Текстовая
+2 - Число
+-> 2
+1 - Только текст
+2 - Простой редактор
+3 - Сложный редактор
+-> 3
+1 - Одно изображение
+2 - Массив изображений
+-> 4
+1 - Список значений
+2 - Единичный выбор из списка
+3 - Множественный выбор из списка
+
+-> 5
+1 - Да / нет
+
+-> 6
+1 - ДД.ММ.ГГГГ
+2 - ДД МЕСЯЦ ГГГГ
+3 - Особый
+-->
+<module id="1" name="Шапка лэндинга" version="1.0">
+	<fields>
+		<field>
+			<id>back</id>
+			<name>Подложка</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>logo</id>
+			<name>Логотип</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>header</id>
+			<name>Заголовок блока</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>subheader</id>
+			<name>Подзаголовок блока</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>button</id>
+			<name>Надпись кнопки</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+	</fields>
+	<datasets>
+		<dataset>
+			<id>menuitems</id>
+			<name>Пункты меню</name>
+			<fields>
+				<field>
+					<id>name</id>
+					<name>Пункт меню</name>
+					<type>1</type>
+				</field>
+				<field>
+					<id>spec</id>
+					<name>Отправка заказа</name>
+					<type>5</type>
+				</field>
+				<field>
+					<id>url</id>
+					<name>Ссылка</name>
+					<type>1</type>
+				</field>
+			</fields>
+		</dataset>
+		<dataset>
+			<id>slider</id>
+			<name>Слайдер шапки</name>
+			<fields>
+				<field>
+					<id>pic</id>
+					<name>Изображение</name>
+					<type>3</type>
+				</field>
+				<field>
+					<id>header</id>
+					<name>Заголовок</name>
+					<type>1</type>
+				</field>
+				<field>
+					<id>text</id>
+					<name>Текст</name>
+					<type>1</type>
+				</field>
+				<field>
+					<id>urltext</id>
+					<name>Текст ссылки</name>
+					<type>1</type>
+				</field>
+				<field>
+					<id>url</id>
+					<name>Ссылка</name>
+					<type>1</type>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>

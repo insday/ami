@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="31" state="through" name="Сквозной баннер" version="1.0">
+	<properties>
+		<property>
+			<id>back_color</id>
+			<name>Цвет подложки</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+	</properties>
+	<fields>
+		<field>
+			<id>image</id>
+			<name>Изображение</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>url</id>
+			<name>Ссылка</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+	</fields>
+</module>

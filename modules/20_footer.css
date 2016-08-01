@@ -1,0 +1,79 @@
+.footermenus {
+	background-color: #f4f4f4;
+	padding: 50px;
+    border-top: solid 1px #FFFFFF;
+}
+.footermenu {
+	float: left;
+	width: 20%;
+	padding-right: 40px;
+}
+.footermenu ul li {
+	list-style: none;
+	padding: 4px 0;
+}
+.footermenu ul li a {
+	color: #3d3d3d;
+	-webkit-transition: color 0.5s;
+	transition: color 0.5s;
+}
+.footermenu ul li a:hover {
+	color: #0c87a5;
+}
+.footermenu h3 {
+	background-image: linear-gradient(to right, #43904b, #2cad7b 47%, #15a8c1 88%, #0c87a5), linear-gradient(#7ebb2a, #7ebb2a);
+	font-family: 'MullerBold';
+	font-size: 13px;
+	line-height: 1.8;
+	letter-spacing: 0.5px;
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
+	margin-bottom: 20px;
+	display: table;
+}
+.footer {
+	background-color: #e4e4e4;
+	padding: 30px 0 26px 0;
+}
+.faddress {
+	float: left;
+	width: 33.3333%;
+	text-align: center;
+	font-family: 'MullerMedium';
+	font-size: 16px;
+	line-height: 1.9;
+	color: #5d5d5d;
+}
+.fphone1 {
+	float: left;
+	width: 33.3333%;
+	text-align: center;
+	font-family: 'MullerMedium';
+	font-size: 16px;
+	line-height: 1.9;
+	color: #5d5d5d;
+}
+.fphone2 {
+	float: left;
+	width: 33.3333%;
+	text-align: center;
+	font-family: 'MullerMedium';
+	font-size: 16px;
+	line-height: 1.9;
+	color: #5d5d5d;
+}
+@media screen and (min-width: 0px) and (max-width: 1080px) {
+	.faddress {
+		width: 100%;
+		padding: 20px;
+	}
+	.fphone1 {
+		width: 100%;
+		padding: 20px;
+	}
+	.fphone2 {
+		width: 100%;
+		padding: 20px;
+	}
+}

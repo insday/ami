@@ -1,0 +1,99 @@
+/* ШРИФТЫ */
+body, p, a, span, div {
+	font-size: 18px;
+    font-weight: 400;
+	line-height: 30px;
+	letter-spacing: 0.01em;
+}
+h1 {
+	font-size: 44px;
+    font-weight: 700;
+	line-height: 60px;
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+}
+h2 {
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 60px;
+	letter-spacing: 0.15em;
+	text-transform: uppercase;
+}
+h3 {
+	font-size: 16px;
+	font-weight: 700;
+	line-height: 22px;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	margin-bottom: 22px;
+}
+h4 {
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 30px;
+	letter-spacing: 0.18em;
+	text-transform: uppercase;
+}
+a.link {
+	text-decoration: none;
+	padding-bottom: 2px;
+	border-bottom: solid 1px #345277;
+}
+a.link:hover {
+	color: #345277;
+	border: none;
+}
+@media only screen and (max-width: 1400px) {
+	body, p, a, span, div {
+		font-size: 16px;
+		line-height: 26px;
+		letter-spacing: 0.01em;
+	}
+	h1 {
+		font-size: 38px;
+		line-height: 50px;
+		letter-spacing: 0.15em;
+	}
+	h2 {
+		font-size: 30px;
+		line-height: 50px;
+		letter-spacing: 0.14em;
+	}
+	h3 {
+		font-size: 15px;
+		line-height: 20px;
+		letter-spacing: 0.15em;
+	}
+	h4 {
+		font-size: 18px;
+		line-height: 24px;
+		letter-spacing: 0.12em;
+	}
+}
+@media only screen and (max-width: 1280px) {
+	body, p, a, span, div {
+		font-size: 14px;
+		line-height: 20px;
+		letter-spacing: 0.01em;
+	}
+	h1 {
+		font-size: 34px;
+		line-height: 42px;
+		letter-spacing: 0.13em;
+	}
+	h2 {
+		font-size: 28px;
+		line-height: 44px;
+		letter-spacing: 0.12em;
+	}
+	h3 {
+		font-size: 13px;
+		line-height: 18px;
+		letter-spacing: 0.1em;
+	}
+	h4 {
+		font-size: 16px;
+		line-height: 22px;
+		letter-spacing: 0.1em;
+	}
+}

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="24" name="Хлебные крошки" version="1.0">
+	<properties>
+		<property>
+			<id>back_color</id>
+			<name>Цвет подложки</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+		<property>
+			<id>text_color</id>
+			<name>Цвет текста</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+	</properties>
+	<fields>
+		<field>
+			<id>delimiter</id>
+			<name>Разделитель</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>self_include</id>
+			<name>Включить сам раздел</name>
+			<type>5</type>
+			<format>1</format>
+		</field>
+	</fields>
+</module>

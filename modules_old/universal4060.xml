@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="12" name="Универсальный блок 40 на 60" version="1.0">
+	<properties>
+		<property>
+			<id>back_color</id>
+			<name>Цвет общей подложки</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+		<property>
+			<id>text_color</id>
+			<name>Цвет текста</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+		<property>
+			<id>back_color_left</id>
+			<name>Цвет левой подложки</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+		<property>
+			<id>back_color_right</id>
+			<name>Цвет правой подложки</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+	</properties>
+	<fields>
+		<field>
+			<id>back</id>
+			<name>Общая подложка</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>back_left</id>
+			<name>Подложка слева</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>back_right</id>
+			<name>Подложка справа</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>img_left</id>
+			<name>Изображение слева</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>img_right</id>
+			<name>Изображение справа</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>header_left</id>
+			<name>Заголовок слева</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>text_left</id>
+			<name>Текст слева</name>
+			<type>2</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>header_right</id>
+			<name>Заголовок справа</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>text_right</id>
+			<name>Текст справа</name>
+			<type>2</type>
+			<format>1</format>
+		</field>
+	</fields>
+</module>

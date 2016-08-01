@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="10" name="Обложка со слайдером" version="1.0">
+	<fields>
+		<field>
+			<id>picture</id>
+			<name>Изображения</name>
+			<type>3</type>
+			<format>2</format>
+		</field>
+		<field>
+			<id>header</id>
+			<name>Заголовок</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>subheader</id>
+			<name>Подзаголовок</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>view_text</id>
+			<name>Подпись обзора</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>icon_left</id>
+			<name>Иконка слева</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>text_left</id>
+			<name>Подпись иконки слева</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>icon_right</id>
+			<name>Иконка справа</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>text_right</id>
+			<name>Подпись иконки справа</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+	</fields>
+</module>

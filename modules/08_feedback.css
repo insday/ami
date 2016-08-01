@@ -1,0 +1,92 @@
+.feedback_div {
+	text-align: center;
+	margin: 0 auto;
+	padding-top: 70px;
+	width: calc(100% - 100px);
+}
+.feedback_line {
+	margin-bottom: 30px;
+}
+.line-left3 {
+	float: left;
+	width: calc(50% - 160px);
+	border-bottom: 1px solid #8B8B8B;
+	height: 20px;
+}
+.line-middle3 {
+	float: left;
+	width: 320px;
+	height: 37px;
+}
+.line-right3 {
+	float: left;
+	width: calc(50% - 160px);
+	border-bottom: 1px solid #8B8B8B;
+	height: 20px;
+}
+.f_text {
+	width: 400px;
+	margin: 0 auto;
+}
+.fform {
+	margin: 30px auto 70px auto;
+	width: 760px;
+	height: 91px;
+}
+.fb_left {
+	float: left;
+	width: 308px;
+	height: 91px;
+	margin-right: 10px;
+}
+.fb_left1 {
+	float: left;
+	width: 118px;
+	height: 91px;
+}
+.fform input {
+	font-family: 'Open Sans', sans-serif;
+	width: 278px;
+	height: 27px;
+	margin-bottom: 9px;
+	background-color: #f6f6f6;
+	border: 1px solid #979797;
+	color: #313131;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 6px 15px;
+}
+.fform textarea {
+	font-family: 'Open Sans', sans-serif;
+	width: 278px;
+	height: 69px;
+	background-color: #f6f6f6;
+	border: 1px solid #979797;
+	color: #313131;
+	font-size: 12px;
+	line-height: 20px;
+	padding: 10px 15px;
+}
+.fform button {
+	width: 118px;
+	height: 91px;
+	background-color: transparent;
+	background-image: url("/images/fbut.png");
+	background-repeat: no-repeat;
+	border: none;
+	padding-right: 20px;
+	color: #FFFFFF;
+}
+.f_err {
+	font-size: 18px;
+	font-weight: 700;
+	margin-top: 15px;
+}
+.f_err.red {
+	color: #FF6666;
+}
+.f_err.green {
+	color: #66FF66;
+}
+@media screen and (max-width: 900px) {
+}

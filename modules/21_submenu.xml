@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="21" name="Вторичное меню" version="1.0">
+	<properties>
+		<property>
+			<id>back_color</id>
+			<name>Цвет подложки</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+		<property>
+			<id>text_color</id>
+			<name>Цвет текста</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+	</properties>
+	<fields>
+		<field>
+			<id>header</id>
+			<name>Заголовок</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+	</fields>
+	<datasets>
+		<dataset>
+			<id>1</id>
+			<name>Подстраницы</name>
+			<fields>
+				<field>
+					<id>header_p</id>
+					<name>Заголовок</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>url_p</id>
+					<name>URL перехода</name>
+					<type>1</type>
+					<format>1</format>
+					<readonly>1</readonly>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>

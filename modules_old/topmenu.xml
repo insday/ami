@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="1" state="header" name="Основное меню" version="1.0">
+	<fields>
+		<field>
+			<id>logo</id>
+			<name>Логотип</name>
+			<type>3</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>phone</id>
+			<name>Телефон</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>fblink</id>
+			<name>Ссылка на facebook</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+	</fields>
+	<datasets>
+		<dataset>
+			<id>1</id>
+			<name>Пункты меню</name>
+			<fields>
+				<field>
+					<id>header</id>
+					<name>Пункт</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>url</id>
+					<name>URL перехода</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>

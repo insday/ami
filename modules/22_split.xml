@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="22" name="Сплит" version="1.0">
+	<fields>
+		<field>
+			<id>left_id</id>
+			<name>Код блока слева</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>right_id</id>
+			<name>Код блока справа</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+	</fields>
+</module>

@@ -1,0 +1,125 @@
+/* МОДУЛЬ HEADER */
+.top_div {
+	max-width: none;
+	height: 110px;
+	-webkit-transition: margin-top 0.5s;
+	transition: margin-top 0.5s;
+}
+.top {
+	height: 45px;
+	background-image: linear-gradient(to right, #43904b, #2cad7b 47%, #15a8c1 88%, #0c87a5), linear-gradient(#7ebb2a, #7ebb2a);
+}
+.booking {
+	float: left;
+	width: 270px;
+	padding: 11px 25px;
+	font-size: 13px;
+	line-height: 1.7;
+	color: #ffffff;
+	cursor: pointer;
+}
+.booking:hover {
+	color: #dddddd;
+}
+.booking img {
+	margin-left: 12px;
+}
+.table {
+	float: left;
+	width: calc(100% - 270px);
+	text-align: right;
+}
+.table_ {
+	display: table;
+	margin: 0 0 0 auto;
+}
+.way {
+	display: table-cell;
+	padding-top: 10px;
+	text-align: right;
+}
+.way button {
+	width: 129px;
+	height: 25px;
+	border-radius: 17.5px;
+	background-color: transparent;
+	border: solid 1px #4feaa3;
+	font-size: 13px;
+	line-height: 1.7;
+	color: #ffffff;
+	-webkit-transition: color 0.5s, background-color 0.5s;
+	transition: border 0.5s, background-color 0.5s;
+}
+.way button:hover {
+	background-color: #4feaa3;
+}
+.address {
+	display: table-cell;
+	font-size: 13px;
+	line-height: 1.7;
+	color: #ffffff;
+	padding: 11px 45px;
+}
+.phone {
+	display: table-cell;
+	font-family: 'MullerExtraBold';
+	font-size: 13px;
+	line-height: 1.7;
+	color: #ffffff;
+	padding-top: 11px;
+}
+.socials {
+	display: table-cell;
+	padding: 8px 34px;
+	text-align: right;
+}
+.socials img {
+	margin-left: 8px;
+}
+.logo {
+	float: left;
+	width: 270px;
+	padding: 2px 13px;
+}
+.nav ul {
+	display: table;
+}
+.nav ul li {
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+	height: 60px;
+	padding-top: 5px;
+	-webkit-transition: all 0.5s;
+	transition: all 0.5s;
+}
+.nav ul li a {
+	font-family: 'MullerBold';
+	letter-spacing: 0.5px;
+	color: #4c5e6c;
+	padding: 27px 25px 23px 25px;
+	text-decoration: none;
+	white-space: nowrap;
+	-webkit-transition: color 0.3s;
+	transition: color 0.3s;
+}
+.nav ul li:hover a {
+	color: #23bac2;
+}
+.nav ul li.sel a {
+	background-color: #e0cfb1;
+	-webkit-box-shadow: inset 0 10px 15px -15px rgba(0,0,0,0.3), inset 0 -10px 15px -15px rgba(0,0,0,0.3);
+	-moz-box-shadow: inset 0 10px 15px -15px rgba(0,0,0,0.3), inset 0 -10px 15px -15px rgba(0,0,0,0.3);
+	box-shadow: inset 0 10px 15px -15px rgba(0,0,0,0.3), inset 0 -10px 15px -15px rgba(0,0,0,0.3);
+}
+@media screen and (min-width: 0px) and (max-width: 1080px) {
+	.address {
+		display: none;
+	}
+	.way {
+		padding-right: 20px;
+	}
+	.nav ul li a {
+		padding: 27px 10% 23px 10%;
+	}
+}

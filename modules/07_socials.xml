@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="7" name="Социальные сети" version="1.0">
+	<datasets>
+		<dataset>
+			<id>1</id>
+			<name>Соц. сети</name>
+			<fields>
+				<field>
+					<id>picture</id>
+					<name>Иконка</name>
+					<type>3</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>url</id>
+					<name>URL перехода</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>

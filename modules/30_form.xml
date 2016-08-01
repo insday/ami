@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module id="30" state="through"  name="Форма обратной связи" version="1.0">
+	<properties>
+		<property>
+			<id>back_color</id>
+			<name>Цвет подложки</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+		<property>
+			<id>text_color</id>
+			<name>Цвет текста</name>
+			<type>1</type>
+			<format>3</format>
+		</property>
+	</properties>
+	<fields>
+		<field>
+			<id>header</id>
+			<name>Заголовок формы</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>text</id>
+			<name>Текст перед формой</name>
+			<type>2</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>fromemail</id>
+			<name>Email отправителя</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+		<field>
+			<id>toemail</id>
+			<name>Email получателя</name>
+			<type>1</type>
+			<format>1</format>
+		</field>
+	</fields>
+	<datasets>
+		<dataset>
+			<id>1</id>
+			<name>Поля</name>
+			<fields>
+				<field>
+					<id>fieldname</id>
+					<name>Название поля</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>placeholder</id>
+					<name>Надпись внутри</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>type</id>
+					<name>Тип поля</name>
+					<type>1</type>
+					<format>2</format>
+				</field>
+				<field>
+					<id>list</id>
+					<name>Перечень</name>
+					<type>1</type>
+					<format>2</format>
+				</field>
+				<field>
+					<id>ness</id>
+					<name>Обязательное</name>
+					<type>5</type>
+					<format>1</format>
+				</field>
+				<field>
+					<id>def</id>
+					<name>Текущее значение</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+		<dataset>
+			<id>2</id>
+			<name>Перечни</name>
+			<fields>
+				<field>
+					<id>list_id</id>
+					<name>ID перечня</name>
+					<type>1</type>
+					<format>2</format>
+				</field>
+				<field>
+					<id>list_list</id>
+					<name>Перечень значений через запятую</name>
+					<type>1</type>
+					<format>1</format>
+				</field>
+			</fields>
+		</dataset>
+	</datasets>
+</module>
